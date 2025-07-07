@@ -130,3 +130,28 @@ body.dark ul#taskList li.done {
   margin: 20px auto;
   border-radius: 20px;
 }
+@media (max-width: 600px) {
+  .container {
+    margin: 20px 10px;
+    padding: 10px;
+  }
+
+  .input-section {
+    flex-direction: column;
+  }
+
+  .input-section input,
+  .input-section button {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  #taskInput {
+    font-size: 16px;
+  }
+}
