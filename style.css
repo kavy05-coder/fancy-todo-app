@@ -124,3 +124,9 @@ body.dark ul#taskList li.done {
   background-color: #555;
   color: #bbb;
 }
+.logo {
+  display: block;
+  width: 120px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
